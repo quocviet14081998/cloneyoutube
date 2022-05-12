@@ -1,4 +1,8 @@
 @media (min-width: 874px) and (max-width: 1200px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .header,
   .main {
     width: 100%;
@@ -79,6 +83,10 @@
 }
 
 @media (min-width: 588px) and (max-width: 873px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .header,
   .main {
     width: 100%;
@@ -156,6 +164,10 @@
 }
 
 @media screen and (max-width: 587px) {
+  body {
+    overflow-x: hidden;
+  }
+  
   .header,
   .main {
     width: 100%;
