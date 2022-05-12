@@ -7,6 +7,8 @@
   /* header Nav */
 
   .header__nav {
+    position: absolute;
+    top: -50px;
     border-bottom: 1px solid #ccc;
     box-shadow: 0 4px 5px -3px #ccc;
     display: flex;
@@ -53,6 +55,10 @@
   .container__navbar,
   .container__sidebar {
     display: none;
+  }
+  .container__content-header div {
+    position: absolute;
+    left: 0;
   }
 
   .container__content-video {
@@ -104,6 +110,8 @@
   /* header Nav */
 
   .header__nav {
+    position: absolute;
+    top: -50px;
     border-bottom: 1px solid #ccc;
     box-shadow: 0 4px 5px -3px #ccc;
     display: flex;
@@ -158,6 +166,11 @@
     gap: 0;
   }
 
+  .container__content-header div {
+    position: absolute;
+    left: 0;
+  }
+
   .container__content-box {
     margin: 10px;
   }
@@ -192,6 +205,8 @@
   /* header Nav */
 
   .header__nav {
+    position: absolute;
+    top: -50px;
     border-bottom: 1px solid #ccc;
     box-shadow: 0 4px 5px -3px #ccc;
     display: flex;
@@ -244,6 +259,10 @@
   .container__content-video {
     grid-template-columns: 100%;
     gap: 0;
+  }
+  .container__content-header div {
+    position: absolute;
+    left: 0;
   }
 
   .container__content-box {
