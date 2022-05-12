@@ -4,6 +4,7 @@ const btnHeaderIcon = document.querySelector(".header__icon-grid");
 const SmallYoutube = document.querySelector(".header__small");
 const btnRounded = document.querySelector(".header__rounded");
 const btnGird = document.querySelector(".header__grid");
+const btnRounded2 = document.querySelectorAll(".container__rounded");
 const menuMobile = document.querySelectorAll(".container__mobile-link");
 
 const btnSub = document.querySelector("#container__mobile-link__sub");
@@ -92,6 +93,13 @@ btnRounded.addEventListener("click", () => {
 // Toggle btn Grid
 btnGird.addEventListener("click", () => {
   btnGird.classList.toggle("active");
+});
+
+// Toggle btn Grid
+btnRounded2.forEach((btn2) => {
+  btn2.addEventListener("click", () => {
+    btn2.classList.toggle("active");
+  });
 });
 
 // Active container__header
