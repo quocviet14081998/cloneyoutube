@@ -511,6 +511,7 @@ button.btn i {
   display: flex;
   justify-content: center;
   border-top: 1px solid #ccc;
+  width: 100%;
 }
 
 .container__content-header div {
@@ -518,6 +519,7 @@ button.btn i {
   border-bottom: 1px solid #ccc;
   position: fixed;
   left: 85px;
+  top: 62px;
   display: flex;
   padding: 10px 0px;
   width: 100%;
@@ -543,9 +545,10 @@ button.active {
 /* Container Content Video */
 .container__content-video {
   display: grid;
-  grid-template-columns: repeat(4, calc((100% - 80px) / 4));
+  grid-template-columns: repeat(4, calc((100% - 55px) / 4));
   gap: 1rem;
-  margin-top: 50px;
+  margin-top: 55px;
+  margin-left: 10px;
 }
 
 .container__content-box {
